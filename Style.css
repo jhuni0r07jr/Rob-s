@@ -106,8 +106,9 @@ tbody img{
 
 .divs input{
     width: 45%;
-    height: 100%;
+    height: 25px;
     outline: none;
+    font-size: larger;
     text-align: center;
     align-items: center;
     border-radius: 20px;
