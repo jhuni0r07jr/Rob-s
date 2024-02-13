@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    --fonte-tema: #000;
+    --botao-tema: #fff;
+    --cor-Fontes: #FF9800;
+    --cor-Titulo: #FF9800;
+    --cor-descricao: #fff;
+    --cor-Background: #000;
+    --Bordas-Classe-Mostros: #fff;
+    --Background-Imagem: url('Imagem/sol.png');
+}
+
+.dark{
+    --fonte-tema: #fff;
+    --botao-tema: #000;
+    --cor-descricao: #000;
+    --cor-Fontes: #FF9800;
+    --cor-Titulo: #FF9800;
+    --cor-Background: #fff;
+    --Bordas-Classe-Mostros: #000;
+    --Background-Imagem: url('Imagem/Lua.png');
+}
+
+body{
+    font-size: 100%;
+    font-weight: 300;
+    font-family: open_sans;
+    color: var(--cor-Fontes);
+    cursor: url("Imagem/Relogio.png");
+    background: var(--cor-Background);
+}
+
+
+@font-face{
+    font-family: open_sans;
+    src: url(Fontes/Robots\ Revenge.woff);
+}
+
+main{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    width: 100%;
+    color: var(--cor-Titulo);
+}
+
+#Tema{
+    top: 20px;
+    width: 10%;
+    min-width: 120px;
+    left: 0px;
+    height: 11%;
+    border: none;
+    outline: none;
+    position: fixed;
+    border-radius: 20px;
+    background: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--Background-Imagem);
+}
+
+div{
+    display: block;
+    margin-top: 40px;
+}
+
+tbody img{
+    width: 200px;
+    height: 40px;
+}
+
+.Informacao{
+    width: 100%;
+    height: 10%;
+    margin-top: 20%;
+}
+
+.Informacao button{
+    width: 30%;
+    height: 30px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.divs{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    flex-direction: row;
+}
+
+.divs input{
+    width: 45%;
+    height: 100%;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.divs label{
+    align-items: end;
+    font-size: larger;
+}
+
+.Descricao{
+    font-size: larger;
+    color: aliceblue;
+    opacity: 1 !important;
+    color: var(--cor-descricao);
+}
+
+.Mostros{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 70px;
+    border: 1px solid var(--Bordas-Classe-Mostros);
+}
+
+.Lixeira{
+    width: 10%;
+    height: 10%;
+    background: transparent;
+}
